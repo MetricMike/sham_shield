@@ -2,6 +2,7 @@
 
 An encouraging process wrapper that texts a ship-it squirrel on completion.
 
+https://xkcd.com/303/
 http://www.urbandictionary.com/define.php?term=sham%20shield
 
 ## Installation
@@ -22,7 +23,9 @@ Or install it yourself as:
 
 ## Usage
 
-sham_shield "echo 'anything'" --number 1234567890
+export TWILIO_SID=abc123
+export TWILIO_TOKEN=abc123
+sham_shield wrap "echo something" --number 1234567890
 
 ## Development
 
